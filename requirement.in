@@ -7,4 +7,5 @@ selenium
 Scrapy
 pytest
 pytest-cov
-git
+sqlalchemy
+mysqlclient
