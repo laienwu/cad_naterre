@@ -2,7 +2,10 @@
 #sudo apt-get install mysql-server
 #sudo mysql_secure_installation utility
 
+#mysql -h localhost -p -u root < sakila-schema.sql
 #mysql -h localhost -p -u root < sakila-data.sql
+#(ou mysql> SOURCE C:/temp/sakila-db/sakila-schema.sql;
+#    mysql> SOURCE C:/temp/sakila-db/sakila-data.sql;)
 #mysql -u root -p
 
 mysql> select * from actor
