@@ -8,6 +8,10 @@
 #    mysql> SOURCE C:/temp/sakila-db/sakila-data.sql;)
 #mysql -u root -p
 
+#https://towardsdatascience.com/jupyter-magics-with-sql-921370099589
+#pip install sqlalchemy # ORM for databases
+#pip install ipython-sql # SQL magic function
+
 mysql> select * from actor
     -> limit 10;
 +----------+------------+--------------+---------------------+
